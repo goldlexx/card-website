@@ -204,7 +204,7 @@ img {
   text-decoration: none;
   text-transform: uppercase;
   color: #fff;
-  transition: all 0.2 ease-in;
+  transition: all 0.3s ease-in;
 }
 
 .footer__contacts-btn:hover {
@@ -286,7 +286,7 @@ width: 100%;
   text-decoration: none;
   text-transform: uppercase;
   color: #275bec;
-  transition: all 0.2s ease-out;
+  transition: all 0.4s ease-out;
 }
 
 .poject__btn-back:hover {
