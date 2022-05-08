@@ -13,14 +13,16 @@
 
 <body class="root">
 
-    <header class="header">
+    <header class="header" id="header">
         <h1 class="header__title">Руслан Юлдашев</h1>
         <p class="header__subtitle">фрилансер, веб-разработчик, создание сайтов</p>
-        <img class="header__arrow" src="./images/header/chevron-down.svg" alt="#"></img>
+        <a href="#portfolio">
+            <img class="header__arrow" src="./images/header/chevron-down.svg" alt="#"></img>
+        </a>
     </header>
 
     <main>
-        <section class="portfolio">
+        <section class="portfolio" id="portfolio">
             <div class="root__container">
                 <h2 class="portfolio__title">Портфолио</h2>
                 <ul class="card">
@@ -86,11 +88,19 @@
                 </li>
                 <li class="footer__contacts footer__col">
                     <a class="footer__contacts-btn" href="#" target="_blank" class="footer__btn">Связаться Вконтакте</a>
-                    <p class="footer__contacts-description">Напишите мне, чтобы заказать или узнать стоимость верстки вашего проекта</p>
+                    <p class="footer__contacts-description">Напишите мне, чтобы заказать или узнать стоимость верстки
+                        вашего проекта</p>
                 </li>
             </ul>
         </div>
     </footer>
+
+    <!-- Библиотеки и плагины -->
+    <script src="./libs/jquery/jquery-3.6.0.min.js"></script>
+    <script src="./libs/vide/jquery.vide.min.js"></script>
+
+    <!-- Собственные скрипты и вызовы библиотек -->
+    <script src="./js/main.js"></script>
 </body>
 
 </html>
