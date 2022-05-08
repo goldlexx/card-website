@@ -18,7 +18,6 @@
 * Flexbox
 * Positioning Elements
 * BEM Methodology
-* File Structure and File Paths (Nested BEM)
 * Figma
 
 ## Инструкция по установке:
